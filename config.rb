@@ -1,3 +1,15 @@
+# Paths #
+#########
+@asset_path = "assets/"
+set :images_dir, "#{@asset_path}images"
+set :css_dir, "#{@asset_path}stylesheets"
+set :js_dir, "#{@asset_path}javascripts"
+set :fonts_dir, "#{@asset_path}fonts"
+
+set :build_dir, "build"
+
+activate :autoprefixer
+
 ###
 # Compass
 ###
@@ -47,11 +59,6 @@
 #   end
 # end
 
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
-set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
@@ -65,7 +72,7 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
