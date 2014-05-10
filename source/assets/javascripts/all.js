@@ -2,6 +2,7 @@
 //= require ./vendor/jquery
 //= require ./vendor/modernizr
 
+//= require ./vendor/jquery.scrollTo
 //= require ./vendor/jquery.scrollnav
 //= require ./vendor/jquery.appear
 
