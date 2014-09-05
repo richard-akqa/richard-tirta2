@@ -39,14 +39,14 @@ RT.VIEWS.MAIN = (function(window){
 
 		function imageFade (node) {
 			$(node).fadeIn(500);
-			$(".loading_image").remove();	
+			$(".loading_image").remove();
 		};
 
 		function onThumbClick(node, content){
 
 			e.preventDefault();
 
-			$(node).append("<p class='right loading_image' >NOW LOADING</p>");	
+			$(node).append("<p class='right loading_image' >NOW LOADING</p>");
 
 			$(".gallery_image").html("").fadeOut(200,function() {
 				$(".gallery_image").append(content).imagesLoaded( imageFade(node) );
@@ -55,16 +55,16 @@ RT.VIEWS.MAIN = (function(window){
 
 		$( ".gallery_thumbs>li>a" ).click( function ( e ) {
 
-			var url = $( this ).attr( "href" ); 
+			var url = $( this ).attr( "href" );
 			var img = $("<img />").attr('src', url);
 
 			onThumbClick(this, img);
-				
+
 		});
 
 		$( ".video_thumbs>li>a" ).click( function ( e ) {
 
-			var url = $( this ).attr( "href" ); 
+			var url = $( this ).attr( "href" );
 			var vid = $("<iframe />").attr({src: url, width: '940', height: '540',});
 
 			onThumbClick(this, vid);
@@ -72,10 +72,10 @@ RT.VIEWS.MAIN = (function(window){
 	}
 
 	main.accordion = function(){
-		$('.closed_txt').click( function(d){	
-			// siblings() targets all siblings of the target. 
+		$('.closed_txt').click( function(d){
+			// siblings() targets all siblings of the target.
 			// use slideUp() to close all of these.
-			d.preventDefault(); 
+			d.preventDefault();
 			$(this).toggleClass('closed').next('.jtext').slideToggle().siblings('.jtext').slideUp();
 			$(this).siblings('.closed_text').removeClass('closed');
 		});
@@ -94,7 +94,7 @@ RT.VIEWS.MAIN = (function(window){
 				$('#device-dummy').remove();
 			}
 		});
-	
+
 	}
 
 	$(document).ready(function(){
@@ -107,5 +107,5 @@ RT.VIEWS.MAIN = (function(window){
 	return main;
 
 }(window));
-	
-	
+
+

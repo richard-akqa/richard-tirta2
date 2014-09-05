@@ -24,7 +24,7 @@ activate :autoprefixer
 ###
 
 ["mobile-orchestra", "make-our-mark", "march-hoops", "budlight-hotel", "defy-winter", "salesforce", "audi"].each do |project|
-  proxy "/works/#{project}.html", "views/templates/works.html", :locals => { :project_name => project }, :ignore => true
+  proxy "/works/#{project}.html", "views/templates/works.html", :locals => { :project => project }, :ignore => true
 end
 
 # Per-page layout changes:
