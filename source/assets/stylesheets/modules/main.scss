@@ -1,7 +1,7 @@
-
+@import "bourbon";
 /* ID */
 
-#intro		{margin-top:100px;}
+#intro		{margin-top:150px;}
 #intro_text	{width:380px;}
 
 #quicklinks{
@@ -26,7 +26,7 @@
 
 .page{
 	width:1000px; 
-	min-height:768px;
+	min-height:100px;
 	margin:0 auto 50px auto; 
 	z-index:1;
 }
@@ -38,30 +38,37 @@
 	z-index:1;
 }
 
-.feature_box{
-	border-radius: 8px;
-	position:relative;	
-	width:194px; height:550px;
-	margin-right:4px;
-	
+.module {
+	width: 1000px;
+	min-height: 500px;
+	margin: 0 auto 50px auto;
 }
 
-.feature_text{
-	background:#333;
-	position:absolute;
-	bottom:0;
-	border-radius: 0 0 8px 8px;
-	width:194px; height:50px;
-	z-index:3;
+.projects-header {
+	margin-top: 10px;
+	@include clearfix;
 }
 
-.feature_text h6{color:#CCC; margin: 5px 0 0 10px;}
-
+.project-header-desc {
+	color: #ccc;
+	margin-left: 10px;
+	a {
+		color: #ccc;
+	}
+}
 
 .category_caption{
 	width:223px; height:200px;
 	background: #333;
 	z-index:1;
+}
+
+#about {
+	margin-bottom: 0;
+}
+
+.jtext {
+	margin-bottom: 30px;
 }
 
 /*WORKS*/
