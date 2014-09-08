@@ -23,15 +23,9 @@ activate :autoprefixer
 # Page options, layouts, aliases and proxies
 ###
 
-data.projects.works.each do |project|
-  proxy "/works/#{project[:name]}.html", "views/templates/works.html", :locals => { :project => project }, :ignore => true
+data.projects.akqa.each do |project|
+  proxy "/works/#{project[:name]}.html", "views/templates/works.html", :layout => "akqa-layout" , :locals => { :project => project }, :ignore => true
 end
-
-# ["mobile-orchestra", "make-our-mark", "march-hoops", "budlight-hotel", "defy-winter", "salesforce", "audi"].each do |project|
-#   proxy "/works/#{project}.html", "views/templates/works.html", :locals => { :projects => project }, :ignore => true do
-#     @project_name = project
-#   end
-# end
 
 # Per-page layout changes:
 #
