@@ -9,7 +9,7 @@
   banner_link: "akqa/mobileorchestra"
   awards:
     -
-      award_name: "Featured in:"
+      award_name: "<strong>Featured in:</strong>"
     -
       award_name: "Cannes Lions 2013 as Silver Lion of Mobile Lions."
     -
@@ -51,7 +51,7 @@
   banner_link: "akqa/levis"
   awards:
     -
-      award_name: "Featured in:"
+      award_name: "<strong>Featured in:</strong>"
     -
       award_name: "Cannes Lions 2014 as Silver Lion of Social Lions."
     -
@@ -95,7 +95,7 @@
   banner_link: "akqa/marchhoops"
   awards:
     -
-      award_name: "Featured in:"
+      award_name: "<strong>Featured in:</strong>"
     -
       award_name: "Mashable."
     -

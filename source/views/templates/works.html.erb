@@ -2,9 +2,9 @@
 
 <%= partial "views/header" %>
 
-<div class="project_wrapper">
-	<div class="project">
-		<div class="left gallery_desc">
+<div id="project_wrapper">
+	<div id="project">
+		<div class="gallery_desc">
 			<h3 class="margintop10"><%= p[:category] %></h3>
 
 			<h3 class="margintop20"><strong><%= p[:title] %></strong><br/>
@@ -33,7 +33,7 @@
 			<p class="margintop20"><a href="<%= p[:next_project] %>.html"  >Next Project</a></p>
 		</div>
 
-		<div class="left gallery-container">
+		<div class="gallery-container">
 			<div class="gallery-image margintop20">
 				<%= p[:video] %>
 				<% p[:media].each do |m| %>

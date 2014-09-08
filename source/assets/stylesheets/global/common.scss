@@ -1,44 +1,44 @@
 @charset "UTF-8";
 @import "bourbon";
-h1{ 
-	font-size:28px;	
-	line-height:32px; 
-	margin-bottom:10px; 
+h1{
+	font-size:28px;
+	line-height:32px;
+	margin-bottom:10px;
 	font-weight:500;color:#1B75BB;font-family:'FuturaStdBoldCondensed',Helvetica, sans-serif;
 }
 
-h2{	
-	font-size:16px; 
-	line-height:18px; 
+h2{
+	font-size:16px;
+	line-height:18px;
 	font-weight:500;
 }
 
-h3{	
-	font-size:14px; 
-	line-height:16px; 
+h3{
+	font-size:14px;
+	line-height:16px;
 	margin-bottom:14px;
 }
 
-h4{	
-	font-size:12px; 
-	line-height:14px; 
+h4{
+	font-size:12px;
+	line-height:14px;
 	margin-bottom:12px;
 }
 
-h5{	
+h5{
 	font-size:14px;
 }
 
-h6{ 
-	font-size:12px; 
+h6{
+	font-size:12px;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-p {	
+p {
 	font-family:'UniversLTStd57Condensed',Helvetica, sans-serif;
-	font-size:15px; 
-	line-height:20px; 
-	margin-top:10px; 
+	font-size:15px;
+	line-height:20px;
+	margin-top:10px;
 }
 
 strong{	font-family:'UniversLTStd67BoldCondensed',Helvetica, sans-serif;}
@@ -84,7 +84,7 @@ a{
 .radiusleft		{border-radius:		8px 0 0 8px;}
 .radiusright	{border-radius:		0 8px 8px 0;}
 
-.border 		{border:#e6e6e7 1px solid;}	
+.border 		{border:#e6e6e7 1px solid;}
 
 .featured		{background:image-url("ui/featured.png") no-repeat 1px;}
 .featured h3 	{margin-left:55px;}
@@ -96,5 +96,5 @@ a{
 body{
 	background:#FFF; color:#666;
 	font-family:'UniversLTStd57Condensed',Helvetica, sans-serif;
-	font-size:15px;	line-height:16px;	
+	font-size:15px;	line-height:16px;
 }
