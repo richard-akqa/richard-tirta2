@@ -35,6 +35,7 @@
 
 		<div class="left gallery-container">
 			<div class="gallery-image margintop20">
+				<%= p[:video] %>
 				<% p[:media].each do |m| %>
 					<p><%= m['media_name'] %></p>
 					<%= image_tag m['media_link'], :alt => m['media_name'] %>

@@ -30,6 +30,7 @@ works:
         tool_name: "CSS3 (Stylus)"
       -
         tool_name: "NodeJS"
+    video: '<iframe src="//player.vimeo.com/video/96371794?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
     media:
       -
         media_name: ""
@@ -73,6 +74,7 @@ works:
         tool_name: "JavaScript"
       -
         tool_name: "Middleman"
+    video: ''
     media:
       -
         media_name: ""
@@ -110,6 +112,7 @@ works:
         tool_name: "Sports Data API"
       -
         tool_name: "Ruby on Rails"
+    video: '<iframe src="//player.vimeo.com/video/96354350?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
     media:
       -
         media_name: ""
@@ -143,6 +146,7 @@ works:
         tool_name: "Facebook API"
       -
         tool_name: "Ruby on Rails"
+    video: '<iframe src="//player.vimeo.com/video/96371790?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
     media:
       -
         media_name: ""
@@ -176,6 +180,7 @@ works:
         tool_name: "Middleman"
       -
         tool_name: "NodeJS"
+    video: '<iframe src="//player.vimeo.com/video/96371791?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
     media:
       -
         media_name: ""
@@ -207,6 +212,7 @@ works:
         tool_name: "JavaScript"
       -
         tool_name: "Middleman"
+    video: '<iframe src="//player.vimeo.com/video/96435079?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
     media:
       -
         media_name: ""
@@ -238,6 +244,7 @@ works:
         tool_name: "JavaScript"
       -
         tool_name: "Middleman"
+    video: ''
     media:
       -
         media_name: ""
