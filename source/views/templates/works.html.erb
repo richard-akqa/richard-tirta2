@@ -18,6 +18,8 @@
 				<% end %>
 			</ul>
 
+			<h3>Client: <%= p[:client] %></h3>
+
 			<p class="margintop10"><%= p[:description] %></p>
 
 			<ul class="margintop20">
@@ -28,9 +30,7 @@
 				<% end %>
 			</ul>
 
-			
-
-			<p class="margintop20"><a href="statefarm_w.php"  >Next Project</a></p>
+			<p class="margintop20"><a href="<%= p[:next_project] %>.html"  >Next Project</a></p>
 		</div>
 
 		<div class="left gallery-container">

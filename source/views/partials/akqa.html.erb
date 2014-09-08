@@ -2,87 +2,20 @@
 	<div class="featured" id="web-interactive">
 			<h3>WORKS @ AKQA</h3>
 	</div>
-	<section>
-		<div class="projects-header">
-			<div class="left category_caption radiusleft">
-				<p class="project-header-desc">
-					<strong>AKQA Mobile Orchestra</strong><br/>
-					Mobile Experience
-				</p>
-			</div>
-			<img class="left radiusright" src="assets/images/gallery/akqa/mobileorchestra.jpg">
-		</div>
-	</section>
 
-	<section>
-		<div class="projects-header">
-			<div class="left category_caption radiusleft">
-				<p class="project-header-desc">
-					<strong>Levi's #MAKEOURMARK</strong><br/>
-					Mobile Experience
-				</p>
-			</div>
-			<img class="left radiusright" src="assets/images/gallery/akqa/levis.jpg">
-		</div>
-	</section>
-
-	<section>
-		<div class="projects-header">
-			<div class="left category_caption radiusleft">
-				<p class="project-header-desc">
-					<strong>Budlight March Hoops</strong><br/>
-					Web data driven experience
-				</p>
-			</div>
-			<img class="left radiusright" src="assets/images/gallery/akqa/marchhoops.jpg">
-		</div>
-	</section>
-
-	<section>
-		<div class="projects-header">
-			<div class="left category_caption radiusleft">
-				<p class="project-header-desc">
-					<strong>Budlight Hotel</strong><br/>
-					Web experience
-				</p>
-			</div>
-			<img class="left radiusright" src="assets/images/gallery/akqa/budlight.jpg">
-		</div>
-	</section>
-
-	<section>
-		<div class="projects-header">
-			<div class="left category_caption radiusleft">
-				<p class="project-header-desc">
-					<strong>Jordan</strong><br/>
-					Web experience
-				</p>
-			</div>
-			<img class="left radiusright" src="assets/images/gallery/akqa/jordan.jpg">
-		</div>
-	</section>
-
-	<section>
-		<div class="projects-header">
-			<div class="left category_caption radiusleft">
-				<p class="project-header-desc">
-					<strong>Salesforce</strong><br/>
-					Web experience
-				</p>
-			</div>
-			<img class="left radiusright" src="assets/images/gallery/akqa/salesforce.jpg">
-		</div>
-	</section>
-
-	<section>
-		<div class="projects-header">
-			<div class="left category_caption radiusleft">
-				<p class="project-header-desc">
-					<strong>Audi</strong><br/>
-					Web experience
-				</p>
-			</div>
-			<img class="left radiusright" src="assets/images/gallery/akqa/audi.jpg">
-		</div>
-	</section>
+	<% data.projects.works.each do |p| %>
+		<section>
+			<a href="/works/<%= p[:name] %>.html">
+				<div class="projects-header">
+					<div class="left category_caption radiusleft">
+						<p class="project-header-desc">
+							<strong><%= p[:title] %></strong><br/>
+							<%= p[:type] %>
+						</p>
+					</div>
+					<img class="left radiusright" src="assets/images/gallery/<%= p[:banner_link] %>.jpg">
+				</div>
+			</a>
+		</section>
+	<% end %>
 </div>
