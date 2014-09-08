@@ -1,0 +1,72 @@
+works:
+  -
+    name: "mobile-orchestra"
+    title: "Mobile Orchestra"
+    category: "WEB + INTERACTIVE"
+    type: "Microsite"
+    description: "Audi Micro-site for users to test drive the Audi's latest 2013 A8 Model."
+    next_project: ""
+    awards: 
+      - 
+        award_name: "HTML5"
+      -
+        award_name: "CSS3"
+      -
+        award_name: "JavaScript"
+      -
+        award_name: "jQuery"
+      -
+        award_name: "Middleman"
+    tools: 
+      - 
+        tool_name: "HTML5"
+      -
+        tool_name: "CSS3"
+      -
+        tool_name: "JavaScript"
+      -
+        tool_name: "jQuery"
+      -
+        tool_name: "Middleman"
+    media: 
+      - 
+        media_name: ""
+        media_link: "gallery/audi/01.jpg"
+      -
+        media_name: ""
+        media_link: "gallery/audi/01.jpg"
+      -
+        media_name: ""
+        media_link: "gallery/audi/01.jpg"
+  -
+    name: "audi-a8-test-drive" 
+    title: "Audi A8 Test Drive"
+    category: "WEB + INTERACTIVE"
+    type: "Microsite"
+    description: "Audi Micro-site for users to test drive the Audi's latest 2013 Audi A8 Model."
+    next_project: ""
+    awards: 
+      - 
+        award_name: ""
+    tools: 
+      - 
+        tool_name: "HTML5"
+      -
+        tool_name: "CSS3"
+      -
+        tool_name: "JavaScript"
+      -
+        tool_name: "jQuery"
+      -
+        tool_name: "Middleman"
+    media: 
+      - 
+        media_name: ""
+        media_link: "gallery/audi/01.jpg"
+      -
+        media_name: ""
+        media_link: "gallery/audi/02.jpg"
+      -
+        media_name: ""
+        media_link: "gallery/audi/03.jpg"
+      

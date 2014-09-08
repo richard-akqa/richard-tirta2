@@ -99,7 +99,7 @@
 }
 
 .gallery-container {
-	width: 75%;
+	width: 80%;
 }
 
 .gallery_thumbs{min-width:150px;width:200px;}
@@ -112,7 +112,7 @@
 
 // .gallery_image{ width:80%;}
 .gallery_video { width:80%; max-width:1200px;}
-.gallery_image { width: auto; }
+.gallery-image img { width: 100%; }
 
 
 .loading{margin:300px 0 0 0;text-align:center;}
