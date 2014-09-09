@@ -11,9 +11,9 @@
     -
       award_name: "<strong>Featured in:</strong>"
     -
-      award_name: "Cannes Lions 2013 as Silver Lion of Mobile Lions."
+      award_name: "Cannes Lions 2013 as <br/>Silver Lion of Mobile Lions."
     -
-      award_name: "Communication Arts Interactive Annual 20."
+      award_name: "Communication Arts Interactive Annual."
     -
       award_name: "FWA as Mobile of the Day."
     -
@@ -28,18 +28,14 @@
     -
       tool_name: "CSS3 (Stylus)"
     -
-      tool_name: "NodeJS"
-  video: '<iframe src="//player.vimeo.com/video/96371794?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
+      tool_name: "node.js"
+  video: '<p>Password: crd@AKQA</p><iframe src="//player.vimeo.com/video/96371794?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  custom_media_before: ''
+  custom_media_after: '<iframe width="960" height="540" src="//www.youtube.com/embed/wUpAvTYAOjY" frameborder="0" allowfullscreen></iframe>'
   media:
     -
       media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
+      media_link: "gallery/akqa/mobileorchestra_full.jpg"
 -
   name: "make-our-mark"
   title: "Levi's #MAKEOURMARK"
@@ -53,9 +49,9 @@
     -
       award_name: "<strong>Featured in:</strong>"
     -
-      award_name: "Cannes Lions 2014 as Silver Lion of Social Lions."
+      award_name: "Cannes Lions 2014 as <br/> Silver Lion of Social Lions."
     -
-      award_name: "Cannes Lions 2014 as Bronze Lion of Branded Tech Lions."
+      award_name: "Cannes Lions 2014 as <br/> Bronze Lion of Branded Tech Lions."
     -
       award_name: "Communication Arts."
     -
@@ -74,22 +70,18 @@
     -
       tool_name: "Middleman"
   video: ''
+  custom_media_before: ""
+  custom_media_after: '<iframe width="960" height="540" src="//www.youtube.com/embed/nArM3XWt-6w" frameborder="0" allowfullscreen></iframe>'
   media:
     -
       media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
+      media_link: "gallery/akqa/levis_full.jpg"
 -
   name: "march-hoops"
-  title: "Bud Light Mad Things Happen March Hoops"
+  title: "Bud Light Mad Things Happen <br/> March Hoops"
   category: "WEB + INTERACTIVE"
   type: "Interactive Experience"
-  description: 'To celebrate 2014 NCAA March Madness, Bud Light created experiences and tool swhere everybody can enjoy the "Madness" without leaving their desk'
+  description: 'To celebrate 2014 NCAA March Madness, Bud Light created experiences and tool swhere everybody can enjoy the "Madness" without leaving their desk.'
   next_project: "bud-light-hotel"
   client: "AB-inbev (Bud Light)"
   banner_link: "akqa/marchhoops"
@@ -112,16 +104,15 @@
     -
       tool_name: "Ruby on Rails"
   video: '<iframe src="//player.vimeo.com/video/96354350?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
+  custom_media_before: ""
+  custom_media_after: ""
   media:
     -
       media_name: ""
-      media_link: "gallery/audi/01.jpg"
+      media_link: "gallery/march_hoops/01.jpg"
     -
       media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
+      media_link: "gallery/march_hoops/02.jpg"
 -
   name: "bud-light-hotel"
   title: "Bud Light Hotel (Superbowl 2014)"
@@ -146,6 +137,8 @@
     -
       tool_name: "Ruby on Rails"
   video: '<iframe src="//player.vimeo.com/video/96371790?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
+  custom_media_before: ""
+  custom_media_after: ""
   media:
     -
       media_name: ""
@@ -180,6 +173,8 @@
     -
       tool_name: "NodeJS"
   video: '<iframe src="//player.vimeo.com/video/96371791?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
+  custom_media_before: ""
+  custom_media_after: ""
   media:
     -
       media_name: ""
@@ -212,6 +207,8 @@
     -
       tool_name: "Middleman"
   video: '<iframe src="//player.vimeo.com/video/96435079?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
+  custom_media_before: ""
+  custom_media_after: ""
   media:
     -
       media_name: ""
@@ -244,6 +241,8 @@
     -
       tool_name: "Middleman"
   video: ''
+  custom_media_before: ""
+  custom_media_after: ""
   media:
     -
       media_name: ""

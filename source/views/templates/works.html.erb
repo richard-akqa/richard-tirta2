@@ -10,7 +10,9 @@
 			<h2 class="margintop20"><strong><%= p[:title] %></strong><br/>
 			<%= p[:type] %></h2>
 
-			<ul class="margintop20">
+			<p class="margintop20"><strong>Client:</strong> <%= p[:client] %></p>
+
+			<ul class="award-list">
 				<% p[:awards].each do |d| %>
 					<li>
 						<%= d['award_name'] %>
@@ -18,11 +20,10 @@
 				<% end %>
 			</ul>
 
-			<h3>Client: <%= p[:client] %></h3>
 
 			<p class="margintop10"><%= p[:description] %></p>
 
-			<ul class="margintop20">
+			<ul class="tools-list margintop20">
 				<% p[:tools].each do |t| %>
 					<li>
 						<%= t['tool_name'] %>
@@ -30,16 +31,18 @@
 				<% end %>
 			</ul>
 
-			<p class="margintop20"><a href="<%= p[:next_project] %>.html"  >Next Project</a></p>
+			<p class="margintop20"><a href="<%= p[:next_project] %>.html">Next Project</a></p>
 		</div>
 
 		<div class="gallery-container">
 			<div class="gallery-image margintop20">
-				<%= p[:video] %>
+				<%= p[:custom_media_before] %>
 				<% p[:media].each do |m| %>
 					<p><%= m['media_name'] %></p>
 					<%= image_tag m['media_link'], :alt => m['media_name'] %>
 				<% end %>
+				<%= p[:custom_media_after] %>
+				<%= p[:video] %>
 			</div>
 
 			<div class="clear"></div>
