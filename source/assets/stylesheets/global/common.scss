@@ -41,7 +41,10 @@ p {
 	margin-top:10px;
 }
 
-strong{	font-family:'UniversLTStd67BoldCondensed',Helvetica, sans-serif;}
+strong {
+	font-family:'UniversLTStd67BoldCondensed',Helvetica, sans-serif;
+	color: rgb(90,90,90);
+}
 
 a{
 	&:link			{color:#1B75BB; text-decoration:none;}
