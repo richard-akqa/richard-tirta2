@@ -202,13 +202,49 @@
 				}
 			}
 			.tools-list {
+				margin-top: 20px;
 				@include clearfix;
 				li {
 					display: block;
 					float: left;
-					border: 1px solid rgb(90,90,90);
+					border: 1px solid rgb(230,230,230);
 					margin: 0 10px 5px 0;
 					padding: 3px 5px;
+					@mixin tools-icon($asset, $width, $height) {
+						background: image-url($asset) no-repeat;
+						background-size: 100% 100%;
+						border: none;
+						display: block;
+						overflow: hidden;
+						padding: 0;
+						text-indent: -99px;
+						width: $width;
+						height: $height;
+					}
+					&.icon-ae {
+						@include tools-icon("ui/ae_icon.png", 25px, 25px);
+					}
+					&.icon-ai {
+						@include tools-icon("ui/ai_icon.png", 25px, 25px);
+					}
+					&.icon-c4d {
+						@include tools-icon("ui/c4d_icon.png", 35px, 25px);
+					}
+					&.icon-fl {
+						@include tools-icon("ui/fl_icon.png", 25px, 25px);
+					}
+					&.icon-id {
+						@include tools-icon("ui/id_icon.png", 25px, 25px);
+					}
+					&.icon-logic {
+						@include tools-icon("ui/logic_icon.png", 68px, 25px);
+					}
+					&.icon-photo {
+						@include tools-icon("ui/photo_icon.png", 35px, 25px);
+					}
+					&.icon-ps{
+						@include tools-icon("ui/ps_icon.png", 25px, 25px);
+					}
 				}
 			}
 		}
@@ -234,6 +270,12 @@
 				width: 100%;
 				height: calc(100% - 30px);
 			}
+			.works-aau &{
+				padding-bottom: 51.25%;
+				iframe, object, embed {
+					max-width: 860px;
+				}
+			}
 		}
 	}
 }
@@ -247,7 +289,12 @@
 }
 
 .gallery_video { width:80%; max-width:1200px;}
-.gallery-image img { width: 100%; }
+.gallery-image img {
+	width: 100%;
+	&.potrait {
+		width: auto;
+	}
+}
 
 
 .loading{margin:300px 0 0 0;text-align:center;}

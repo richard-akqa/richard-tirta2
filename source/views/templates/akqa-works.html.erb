@@ -23,7 +23,7 @@
 
 			<p class="margintop10"><%= p[:description] %></p>
 
-			<ul class="tools-list margintop20">
+			<ul class="tools-list">
 				<% p[:tools].each do |t| %>
 					<li>
 						<%= t['tool_name'] %>
@@ -53,44 +53,3 @@
 		</div>
 	</div>
 </div>
-
-<!-- <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script> -->
-<!-- <script type="text/javascript" src="../js/modernizr-2.5.3.js"></script> -->
-<!-- <script type="text/javascript" src="../js/fitvids.js"></script> -->
-
-
-<script type="text/javascript">
-//  $(document).ready(function(){
-//     // Target your .container, .wrapper, .post, etc.
-//     $(".gallery_video").fitVids();
-//   });
-
-
-// $(window).load(function() {
-
-
-
-// var windowWidth = $(window).width();
-// var imageWidth = $(".gallery_image>img").width();
-
-
-// if ( windowWidth >= 1300 ){
-// $(".project_wrapper").css('width', imageWidth+300);
-// };
-
-// function setSizes() {
-// var projectWidth = $(".project_wrapper").width();
-// $(".gallery_image").css('width', projectWidth-250);
-// }
-
-// var projectWidth = $(".project_wrapper").width();
-// $(".gallery_image").css('width', projectWidth-250);
-
-// $(window).resize(function() { setSizes(); });
-
-
-// });
-
-</script>
-</body>
-</html>

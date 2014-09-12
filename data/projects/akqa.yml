@@ -225,7 +225,7 @@
   category: "WEB + INTERACTIVE"
   type: "Microsite"
   description: "Audi Micro-site for users to test drive the Audi's latest 2013 Audi A8 Model."
-  next_project: "batik_keris.php"
+  next_project: "batik-keris.html"
   client: "Audi"
   banner_link: "akqa/audi"
   awards:

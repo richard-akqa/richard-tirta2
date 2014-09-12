@@ -1,0 +1,200 @@
+-
+  name: "batik-keris"
+  title: "Batik Keris"
+  category: "WEB + INTERACTIVE"
+  type: "Flash Website"
+  description: "BatikKeris has a lot of beautiful Batik patterns, and I can not let these beautiful patterns go into static pages. I made this website in Flash to put all those patterns into motions and add interactivity to the web."
+  live_link: '<a href="http://richardtirta.com/work/batikkeris/" target="_new">Go to website</a>'
+  next_project: "state-farm.html"
+  banner_link: "batik/batik"
+  awards:
+    -
+      award_name: "<strong>Featured in:</strong>"
+    -
+      award_name: "Academy of Art University <br/> Spring Show 2011."
+  tools:
+    -
+      tool_class: "icon-fl"
+      tool_name: "Flash"
+    -
+      tool_class: ""
+      tool_name: "ActionScript"
+  video: '<iframe src="http://player.vimeo.com/video/42265679?byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
+  media:
+    -
+      media_name: ""
+      class_name: ""
+      media_link: "gallery/batik/01.jpg"
+    -
+      media_name: ""
+      class_name: ""
+      media_link: "gallery/batik/02.jpg"
+-
+  name: "state-farm"
+  title: "State Farm"
+  category: "WEB + INTERACTIVE <br/> GRAPHIC DESIGN"
+  type: "Rebrand Campaign and Advertising"
+  description: "In this project, I took the challenge to transform the old looking State Farm into something new, reflecting the current growth of State Farm as a financial institution. I made the State Farm looks fresh while also keeping attention to the enduring State Farm's value that State Farm will always be there."
+  live_link: 'http://richardtirta.com/work/statefarm/en/index.php'
+  next_project: "simply-books.html"
+  banner_link: "statefarm/statefarm_web"
+  awards:
+    -
+      award_name: ""
+  tools:
+    -
+      tool_class: ""
+      tool_name: "HTML"
+    -
+      tool_class: ""
+      tool_name: "CSS"
+    -
+      tool_class: ""
+      tool_name: "JavaScript"
+    -
+      tool_class: "icon-id"
+      tool_name: "inDesign"
+    -
+      tool_class: "icon-ai"
+      tool_name: "Illustrator"
+    -
+      tool_class: "icon-ps"
+      tool_name: "Photoshop"
+  video: '<iframe src="http://player.vimeo.com/video/42264689?byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
+  media:
+    -
+      media_name: "Website Landing Page"
+      class_name: ""
+      media_link: "gallery/statefarm/02.jpg"
+    -
+      media_name: "Poster Spread"
+      class_name: ""
+      media_link: "gallery/statefarm/01.jpg"
+    -
+      media_name: ""
+      class_name: "potrait"
+      media_link: "gallery/statefarm/01b.jpg"
+-
+  name: "simply-books"
+  title: "SimplyBooks"
+  category: "WEB + INTERACTIVE"
+  type: "e-Commerce Website"
+  description: 'The goal with this site was to create an online book store front using HTML/CSS, jQuery and PHP. This website also has features that allow visitor to register/ login and give comment to the books. The design of this web­site was inspired by a simple but elegant concept. It also has a mobile version of the website.'
+  live_link: '<a href="http://richardtirta.com/work/simplybooks" target="_new">Go to website</a>'
+  next_project: "red-cliff.html"
+  banner_link: "simplybooks/simplybooks"
+  awards:
+    -
+      award_name: ""
+  tools:
+    -
+      tool_name: "HTML5"
+    -
+      tool_name: "CSS3"
+    -
+      tool_name: "JavaScript"
+    -
+      tool_name: "PHP"
+    -
+      tool_name: "MySQL"
+  video: ''
+  media:
+    -
+      media_name: ""
+      media_link: "gallery/simplybooks/01.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/simplybooks/02.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/simplybooks/03.jpg"
+-
+  name: "red-cliff"
+  title: "RED CLIFF"
+  category: "WEB + INTERACTIVE"
+  type: "Flash Website"
+  description: 'Red Cliff is a movie from China. While it is not a popular movie in the United States, it is a popular movie in China. I made an Interactive web for them with a cinematic look to convey the idea that their film can be as good as a Holywood blockbuster.'
+  live_link: '<a href="http://dragoofwater.web.id/portfolio/red_cliff/" target="_new">Go to website</a>'
+  next_project: "pantone.html"
+  banner_link: "redcliff/redcliff"
+  awards:
+    -
+      award_name: ""
+  tools:
+    -
+      tool_class: "icon-fl"
+      tool_name: "Flash"
+    -
+      tool_class: ""
+      tool_name: "ActionScript"
+  video: '<iframe src="http://player.vimeo.com/video/42701226?byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
+  media:
+    -
+      media_name: ""
+      media_link: "gallery/redcliff/01.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/redcliff/02.jpg"
+-
+  name: "pantone"
+  title: "PANTONE"
+  category: "GRAPHIC DESIGN"
+  type: "Advertising Campaign"
+  description: "Pantone wanted to launch an advertising campaign called &ldquo;Because the World isn't Black and White&rdquo;. Using children's point of view, I delivered this message through the black and white illustrations with interesting colorful figures."
+  next_project: "frezty.html"
+  live_link: ""
+  banner_link: "pantone/pantone"
+  awards:
+    -
+      award_name: ""
+  tools:
+    -
+      tool_class: "icon-id"
+      tool_name: "inDesign"
+    -
+      tool_class: "icon-ai"
+      tool_name: "Illustrator"
+    -
+      tool_class: "icon-ps"
+      tool_name: "Photoshop"
+  video: ''
+  media:
+    -
+      media_name: ""
+      media_link: "gallery/pantone/01.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/pantone/02.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/pantone/03.jpg"
+-
+  name: "frezty"
+  title: "FREZTY"
+  category: "GRAPHIC DESIGN"
+  type: "New Brand Campaign"
+  description: 'Frezty is a new brand created for organic beverage that will be marketed in the middle-to-high social demographic. The green tree illustration conveys the message that this sparkling organic tea will be refreshing<br/> to everyone.'
+  live_link: ""
+  next_project: "dts.html"
+  banner_link: "frezty/frezty"
+  awards:
+    -
+      award_name: ""
+  tools:
+    -
+      tool_class: "icon-id"
+      tool_name: "inDesign"
+    -
+      tool_class: "icon-ai"
+      tool_name: "Illustrator"
+    -
+      tool_class: "icon-ps"
+      tool_name: "Photoshop"
+  video: ''
+  media:
+    -
+      media_name: ""
+      media_link: "gallery/frezty/01.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/frezty/02.jpg"

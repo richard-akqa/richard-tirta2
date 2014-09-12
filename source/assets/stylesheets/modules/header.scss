@@ -133,6 +133,11 @@ header{
 					@include current-nav;
 				}
 			}
+			.works-aau-nav {
+				.works-aau & {
+					@include current-nav;
+				}
+			}
 		}
 	}
 }

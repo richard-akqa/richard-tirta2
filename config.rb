@@ -24,7 +24,11 @@ activate :autoprefixer
 ###
 
 data.projects.akqa.each do |project|
-  proxy "/works/#{project[:name]}.html", "views/templates/works.html", :layout => "akqa-layout" , :locals => { :project => project }, :ignore => true
+  proxy "/works/#{project[:name]}.html", "views/templates/akqa-works.html", :layout => "akqa-layout" , :locals => { :project => project }, :ignore => true
+end
+
+data.projects.aau.each do |project|
+  proxy "/works/#{project[:name]}.html", "views/templates/aau-works.html", :layout => "aau-layout" , :locals => { :project => project }, :ignore => true
 end
 
 # Per-page layout changes:
@@ -67,7 +71,7 @@ end
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  activate :minify_css
+  #activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
