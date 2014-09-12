@@ -4,18 +4,20 @@
 	</div>
 
 	<% data.projects.akqa.each do |p| %>
-		<section>
-			<a href="works/<%= p[:name] %>.html">
-				<div class="projects-header">
-					<div class="left category_caption radiusleft">
-						<p class="project-header-desc">
-							<strong><%= p[:title] %></strong><br/>
-							<%= p[:type] %>
-						</p>
-					</div>
-					<img class="left radiusright" src="assets/images/gallery/<%= p[:banner_link] %>.jpg">
-				</div>
-			</a>
+		<section id="<%= p[:name] %>" class="projects-header">
+			<div class="left category_caption radiusleft">
+				<a href="works/<%= p[:name] %>.html">
+					<p class="project-header-desc">
+						<strong><%= p[:title] %></strong><br/>
+						<%= p[:type] %>
+					</p>
+				</a>
+			</div>
+			<div class="project-header-image">
+				<a href="works/<%= p[:name] %>.html">
+					<img class="radiusright" src="assets/images/gallery/<%= p[:banner_link] %>.jpg">
+				</a>
+			</div>
 		</section>
 	<% end %>
 </div>

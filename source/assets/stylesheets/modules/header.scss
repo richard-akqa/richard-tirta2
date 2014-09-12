@@ -10,6 +10,12 @@ header{
 	width:100%;
 	min-width:1000px;
 	z-index:100;
+	@media screen and (max-width: 1000px) {
+		min-width:650px;
+	}
+	@media screen and (max-width: 650px) {
+		min-width:400px;
+	}
 	#logo{
 		background: image-url("logo.png") no-repeat;
 		display: block;
@@ -20,13 +26,31 @@ header{
 		height: 90px;
 		overflow: hidden;
 		text-indent: -999px;
+		@media screen and (max-width: 1000px) {
+			background: image-url("logo_s.png") no-repeat;
+			width: 150px;
+			height: 45px;
+		}
+		@media screen and (max-width: 650px) {
+			width: 100%;
+		}
 	}
 	#navigation-container{
 		margin-right: 20px;
 		float: right;
+		@media screen and (max-width: 650px) {
+			float: left;
+			margin-right: 0;
+			margin-left: 16px;
+		}
 		#icons-container{
 			@include clearfix;
 			text-align: right;
+			@media screen and (max-width: 650px) {
+				position: absolute;
+				top: 18px;
+				right: 30px;
+			}
 			a{
 				@include clearfix;
 				display: block;
@@ -34,19 +58,32 @@ header{
 				margin-top: 20px;
 				position: relative;
 				opacity: 0.3;
+				@media screen and (max-width: 1000px) {
+					margin-top: 0;
+				}
 				&:hover{
 					opacity: 1;
 				}
 				&.linkedin-icon{
 					background: image-url("ui/linkedin.png") no-repeat;
+					background-size: 100% 100%;
 					width: 25px;
 					height: 25px;
+					@media screen and (max-width: 1000px) {
+						width: 20px;
+						height: 20px;
+					}
 				}
 				&.facebook-icon{
 					background: image-url("ui/f_logo.png") no-repeat;
+					background-size: 100% 100%;
 					width: 25px;
 					height: 25px;
 					margin-left: 10px;
+					@media screen and (max-width: 1000px) {
+						width: 20px;
+						height: 20px;
+					}
 				}
 			}
 		}
@@ -56,10 +93,16 @@ header{
 		font-family:'UniversLTStd57Condensed', Helvetica, sans-serif;
 		margin-top: 15px;
 		text-align: right;
+		@media screen and (max-width: 1000px) {
+			margin-top: 2px;
+		}
 		li{
 			display: inline;
 			font-size: 15px;
 			margin-left: 5px;
+			@media screen and (max-width: 1000px) {
+				font-size: 12px;
+			}
 			a{
 				&:link{
 					color:#666;
