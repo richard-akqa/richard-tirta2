@@ -36,16 +36,15 @@
 
 		<div class="gallery-container">
 			<div class="gallery-image margintop20">
-				<%= p[:custom_media_before] %>
 				<% p[:media].each do |m| %>
 					<p><%= m['media_name'] %></p>
 					<%= image_tag m['media_link'], :alt => m['media_name'] %>
 				<% end %>
-				<div class="video-container">
-					<%= p[:custom_media_after] %>
+				<div class="video-container <%= p[:youtube_status] %>">
+					<%= p[:youtube] %>
 				</div>
-				<div class="video-container">
-					<%= p[:video] %>
+				<div class="video-container <%= p[:vimeo_status] %>">
+					<%= p[:vimeo] %>
 				</div>
 			</div>
 

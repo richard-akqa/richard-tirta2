@@ -39,8 +39,8 @@
 					<p><%= m['media_name'] %></p>
 					<%= image_tag m['media_link'], :alt => m['media_name'], :class => m['class_name'] %>
 				<% end %>
-				<div class="video-container">
-					<%= p[:video] %>
+				<div class="video-container <%= p[:vimeo_status] %>">
+					<%= p[:vimeo] %>
 				</div>
 			</div>
 

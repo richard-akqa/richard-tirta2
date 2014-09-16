@@ -29,9 +29,10 @@
       tool_name: "CSS3 (Stylus)"
     -
       tool_name: "node.js"
-  video: '<p>Password: crd@AKQA</p><iframe src="//player.vimeo.com/video/96371794?byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-  custom_media_before: ''
-  custom_media_after: '<iframe width="960" height="540" src="//www.youtube.com/embed/wUpAvTYAOjY" frameborder="0" allowfullscreen></iframe>'
+  vimeo_status: "linked"
+  vimeo: '<p>Password: crd@AKQA</p><iframe src="//player.vimeo.com/video/96371794?byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  youtube_status: "linked"
+  youtube: '<iframe width="960" height="540" src="//www.youtube.com/embed/wUpAvTYAOjY" frameborder="0" allowfullscreen></iframe>'
   media:
     -
       media_name: ""
@@ -69,9 +70,10 @@
       tool_name: "JavaScript"
     -
       tool_name: "Middleman"
-  video: ''
-  custom_media_before: ""
-  custom_media_after: '<iframe width="960" height="540" src="//www.youtube.com/embed/nArM3XWt-6w" frameborder="0" allowfullscreen></iframe>'
+  vimeo_status: "unlinked"
+  vimeo: ''
+  youtube_status: "linked"
+  youtube: '<iframe width="960" height="540" src="//www.youtube.com/embed/nArM3XWt-6w" frameborder="0" allowfullscreen></iframe>'
   media:
     -
       media_name: ""
@@ -103,9 +105,10 @@
       tool_name: "Sports Data API"
     -
       tool_name: "Ruby on Rails"
-  video: '<iframe src="//player.vimeo.com/video/96354350?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
-  custom_media_before: ""
-  custom_media_after: ""
+  vimeo_status: "linked"
+  vimeo: '<iframe src="//player.vimeo.com/video/96354350?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
+  youtube_status: "unlinked"
+  youtube: ""
   media:
     -
       media_name: ""
@@ -136,19 +139,14 @@
       tool_name: "Facebook API"
     -
       tool_name: "Ruby on Rails"
-  video: '<iframe src="//player.vimeo.com/video/96371790?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
-  custom_media_before: ""
-  custom_media_after: ""
+  vimeo_status: "linked"
+  vimeo: '<iframe src="//player.vimeo.com/video/96371790?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
+  youtube_status: "unlinked"
+  youtube: ""
   media:
     -
       media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
+      media_link: "gallery/akqa/budlight_hotel.jpg"
 -
   name: "jordan-winter"
   title: "Jordan Winter Collection 2013 Defy Winter"
@@ -172,19 +170,20 @@
       tool_name: "Middleman"
     -
       tool_name: "NodeJS"
-  video: '<iframe src="//player.vimeo.com/video/96371791?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
-  custom_media_before: ""
-  custom_media_after: ""
+  vimeo_status: "linked"
+  vimeo: '<iframe src="//player.vimeo.com/video/96371791?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
+  youtube_status: "unlinked"
+  youtube: ""
   media:
     -
       media_name: ""
-      media_link: "gallery/audi/01.jpg"
+      media_link: "gallery/jordan/01.jpg"
     -
       media_name: ""
-      media_link: "gallery/audi/01.jpg"
+      media_link: "gallery/jordan/02.jpg"
     -
       media_name: ""
-      media_link: "gallery/audi/01.jpg"
+      media_link: "gallery/jordan/03.jpg"
 -
   name: "salesforce-guide"
   title: "Salesforce Interactive Guide"
@@ -206,19 +205,14 @@
       tool_name: "JavaScript"
     -
       tool_name: "Middleman"
-  video: '<iframe src="//player.vimeo.com/video/96435079?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
-  custom_media_before: ""
-  custom_media_after: ""
+  vimeo_status: "linked"
+  vimeo: '<iframe src="//player.vimeo.com/video/96435079?byline=0&amp;portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Password: crd@AKQA</p>'
+  youtube_status: "unlinked"
+  youtube: ""
   media:
     -
       media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
+      media_link: "gallery/akqa/salesforce_full.jpg"
 -
   name: "audi-a8-test-drive"
   title: "Audi A8 Test Drive"
@@ -240,9 +234,10 @@
       tool_name: "JavaScript"
     -
       tool_name: "Middleman"
-  video: ''
-  custom_media_before: ""
-  custom_media_after: ""
+  vimeo_status: "unlinked"
+  vimeo: ''
+  youtube_status: "unlinked"
+  youtube: ""
   media:
     -
       media_name: ""
