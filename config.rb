@@ -31,6 +31,8 @@ data.projects.aau.each do |project|
   proxy "/works/#{project[:name]}.html", "views/templates/aau-works.html", :layout => "aau-layout" , :locals => { :project => project }, :ignore => true
 end
 
+page "works/dts.html", :layout => "aau-layout"
+
 # Per-page layout changes:
 #
 # With no layout
