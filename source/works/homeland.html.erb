@@ -1,0 +1,56 @@
+<%= partial "views/header" %>
+
+<div id="project_wrapper">
+	<div id="project">
+		<div class="gallery_desc">
+			<h3 class="margintop10">PHOTOGRAPHY</h3>
+
+			<h2 class="margintop20"><strong>Tanah Air (Homeland)</strong><br/>
+			Photography Compilation</h2>
+
+			<p class="margintop10">Tanah Air (Homeland in Indonesian) is an image collection taken in Indonesia. <br/>It is an archipelago of rich cultures, colorful biodiversity <br/>and exotic places.</p>
+
+			<ul class="tools-list">
+				<li class="icon-photo">
+					Photography
+				</li>
+			</ul>
+
+			<ul class="gallery-thumbs nobullet margintop20">
+					<li>
+						<% link_to '/assets/images/gallery/homeland/01.jpg' do %>
+							<%= image_tag('gallery/homeland/01_thumb.jpg') %>
+						<% end %>
+					</li>
+					<li>
+						<% link_to "/assets//images/gallery/homeland/02.jpg" do %>
+							<%= image_tag "gallery/homeland/02_thumb.jpg"%>
+						<% end %>
+					</li>
+					<li>
+						<% link_to "/assets//images/gallery/homeland/03.jpg" do %>
+							<%= image_tag "gallery/homeland/03_thumb.jpg"%>
+						<% end %>
+					</li>
+					<li>
+						<% link_to "/assets//images/gallery/homeland/04.jpg" do %>
+							<%= image_tag "gallery/homeland/04_thumb.jpg"%>
+						<% end %>
+					</li>
+					<li>
+						<% link_to "/assets//images/gallery/homeland/05.jpg" do %>
+							<%= image_tag "gallery/homeland/05_thumb.jpg"%>
+						<% end %>
+					</li>
+				 </ul>
+
+			<p class="margintop20"><a href="mobile-orchestra.html">Next Project</a></p>
+		</div>
+
+		<div class="gallery-container">
+			<div class="gallery-image margintop20">
+				<%= image_tag "gallery/homeland/02.jpg", :class => "potrait" %>
+			</div>
+		</div>
+	</div>
+</div>

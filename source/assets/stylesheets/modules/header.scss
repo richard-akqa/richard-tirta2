@@ -138,6 +138,11 @@ header{
 					@include current-nav;
 				}
 			}
+			.works-personal-nav {
+				.works-personal & {
+					@include current-nav;
+				}
+			}
 		}
 	}
 }

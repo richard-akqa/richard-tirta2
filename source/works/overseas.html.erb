@@ -6,34 +6,56 @@
 			<h3 class="margintop10">PHOTOGRAPHY</h3>
 
 			<h2 class="margintop20"><strong>The Overseas</strong><br/>
-			Website</h2>
+			Photography Compilation</h2>
 
-			<p class="margintop10">The WORKSHOP Burgers Bar &amp; Grill is new brand restaurants located across the Peninsula of San Francisco Bay Area. They need a website that can show their most current menu and offers. Therefore, I created the website using jQuery and PHP to show all the dynamic contents from the database. I designed this website to make it looks like a "workshop kitchen".</p>
+			<p class="margintop10">Overseas is an image collection taken in the United States, an overseas country from my perspective as Indonesian. Different from "Tanah Air" (Homeland) which featuring landmarks and objects, I spent most of the times taking <br/>pictures of different people.</p>
 
 			<ul class="tools-list">
-				<li>
-					HTML
-				</li>
-				<li>
-					CSS
-				</li>
-				<li>
-					PHP
+				<li class="icon-photo">
+					Photography
 				</li>
 			</ul>
 
-			<p class="margintop20"><a href="venus.html">Next Project</a></p>
+			<ul class="gallery-thumbs nobullet margintop20">
+					<li>
+						<% link_to '/assets/images/gallery/overseas/01.jpg' do %>
+							<%= image_tag('gallery/overseas/01_thumb.jpg') %>
+						<% end %>
+					</li>
+					<li>
+						<% link_to "/assets//images/gallery/overseas/02.jpg" do %>
+							<%= image_tag "gallery/overseas/02_thumb.jpg"%>
+						<% end %>
+					</li>
+					<li>
+						<% link_to "/assets//images/gallery/overseas/03.jpg" do %>
+							<%= image_tag "gallery/overseas/03_thumb.jpg"%>
+						<% end %>
+					</li>
+					<li>
+						<% link_to "/assets//images/gallery/overseas/04.jpg" do %>
+							<%= image_tag "gallery/overseas/04_thumb.jpg"%>
+						<% end %>
+					</li>
+					<li>
+						<% link_to "/assets//images/gallery/overseas/05.jpg" do %>
+							<%= image_tag "gallery/overseas/05_thumb.jpg"%>
+						<% end %>
+					</li>
+					<li>
+						<% link_to "/assets//images/gallery/overseas/06.jpg" do %>
+							<%= image_tag "gallery/overseas/06_thumb.jpg"%>
+						<% end %>
+					</li>
+				 </ul>
+
+			<p class="margintop20"><a href="homeland.html">Next Project</a></p>
 		</div>
 
 		<div class="gallery-container">
 			<div class="gallery-image margintop20">
-				<%= image_tag "gallery/workshop/01.jpg"%>
-				<%= image_tag "gallery/workshop/02.jpg"%>
+				<%= image_tag "gallery/overseas/02.jpg", :class => "potrait" %>
 			</div>
-
-
-
-			<div class="clear"></div>
 		</div>
 	</div>
 </div>

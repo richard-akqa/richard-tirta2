@@ -33,6 +33,11 @@ end
 
 page "works/dts.html", :layout => "aau-layout"
 
+page "works/workshop.html", :layout => "personal-layout"
+page "works/venus.html", :layout => "personal-layout"
+page "works/overseas.html", :layout => "personal-layout"
+page "works/homeland.html", :layout => "personal-layout"
+
 # Per-page layout changes:
 #
 # With no layout

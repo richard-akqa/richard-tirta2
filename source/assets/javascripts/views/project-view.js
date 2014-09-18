@@ -8,35 +8,26 @@ RT.VIEWS.project = (function(window){
 
 		function imageFade (node) {
 			$(node).fadeIn(500);
-			$(".loading_image").remove();
+			$(".loading-image").remove();
 		};
 
-		function onThumbClick(node, content){
+		function onThumbClick(node){
 
-			e.preventDefault();
+			var url = $(node).attr( "href" ),
+				content = "<img class='potrait' src='" + url +"'/>";
+			console.log(url);
+			console.log(content);
 
-			$(node).append("<p class='right loading_image' >NOW LOADING</p>");
+			$(node).append("<p class='right loading-image' >NOW LOADING</p>");
 
-			$(".gallery_image").html("").fadeOut(200,function() {
-				$(".gallery_image").append(content).imagesLoaded( imageFade(node) );
+			$(".gallery-image").html("").fadeOut(200,function() {
+				$(".gallery-image").append(content).imagesLoaded( imageFade(this) );
 			});
 		}
 
-		$( ".gallery_thumbs>li>a" ).click( function ( e ) {
-
-			var url = $( this ).attr( "href" );
-			var img = $("<img />").attr('src', url);
-
-			onThumbClick(this, img);
-
-		});
-
-		$( ".video_thumbs>li>a" ).click( function ( e ) {
-
-			var url = $( this ).attr( "href" );
-			var vid = $("<iframe />").attr({src: url, width: '940', height: '540',});
-
-			onThumbClick(this, vid);
+		$( ".gallery-thumbs>li>a" ).click( function ( e ) {
+			e.preventDefault();
+			onThumbClick(this);
 		});
 	}
 
