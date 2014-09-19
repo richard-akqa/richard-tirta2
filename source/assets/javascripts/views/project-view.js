@@ -15,8 +15,6 @@ RT.VIEWS.project = (function(window){
 
 			var url = $(node).attr( "href" ),
 				content = "<img class='potrait' src='" + url +"'/>";
-			console.log(url);
-			console.log(content);
 
 			$(node).append("<p class='right loading-image' >NOW LOADING</p>");
 
