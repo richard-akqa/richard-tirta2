@@ -70,8 +70,8 @@
       tool_name: "JavaScript"
     -
       tool_name: "Middleman"
-  vimeo_status: "unlinked"
-  vimeo: ''
+  vimeo_status: "linked"
+  vimeo: '<p>Password: crd@AKQA</p><iframe src="//player.vimeo.com/video/106555889?byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
   youtube_status: "linked"
   youtube: '<iframe width="960" height="540" src="//www.youtube.com/embed/nArM3XWt-6w" frameborder="0" allowfullscreen></iframe>'
   media:
