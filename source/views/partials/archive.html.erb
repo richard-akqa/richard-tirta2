@@ -1,7 +1,39 @@
 <div id="works-personal" class="module">
 	<div class="featured" id="web-interactive">
-			<h3>PERSONAL WORKS</h3>
+			<h3>ARCHIVE</h3>
 	</div>
+	<% data.projects.archive.each do |p| %>
+		<section id="<%= p[:name] %>" class="projects-header">
+			<div class="left category_caption radiusleft">
+				<a href="works/<%= p[:name] %>.html">
+					<p class="project-header-desc">
+						<strong><%= p[:title] %></strong><br/>
+						<%= p[:type] %>
+					</p>
+				</a>
+			</div>
+			<div class="project-header-image">
+				<a href="works/<%= p[:name] %>.html">
+					<img class="radiusright" src="assets/images/gallery/<%= p[:banner_link] %>.jpg">
+				</a>
+			</div>
+		</section>
+	<% end %>
+	<section id="dts" class="projects-header">
+		<div class="left category_caption radiusleft">
+			<a href="works/dts.php">
+				<p class="project-header-desc">
+					<strong>DTS Theater</strong><br/>
+					Motion Teaser
+				</p>
+			</a>
+		</div>
+		<div class="project-header-image">
+			<a href="works/dts.html">
+				<img class="radiusright" src="assets/images/gallery/dts/dts.jpg">
+			</a>
+		</div>
+	</section>
 	<section>
 		<div class="projects-header">
 			<div class="left category_caption radiusleft">

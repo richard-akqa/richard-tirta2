@@ -1,0 +1,115 @@
+-
+  name: "sutterfield"
+  title: "Sutterfield Consignment Gallery"
+  category: "Web, Marketing & Analytics"
+  type: "Branding, Web & Social, Marketing&nbsp;& Analytics"
+  description: "Previously, Sutterfield had a Wordpress website and inconsistent branding across the board. I was able to straigthen it up and remade the website so it is linked to Flickr instead of updating every single changing inventory. With social media management and analytical strategies I was able to increase traffic significantly."
+  next_project: "wannae.html"
+  client: "Sutterfield"
+  banner_link: "sutterfield/sutterfield"
+  awards:
+    -
+      award_name: ""
+  tools:
+    -
+      tool_class: ""
+      tool_name: "HTML"
+    -
+      tool_class: ""
+      tool_name: "CSS"
+    -
+      tool_class: ""
+      tool_name: "JavaScript"
+    -
+      tool_class: "icon-id"
+      tool_name: "inDesign"
+    -
+      tool_class: "icon-ai"
+      tool_name: "Illustrator"
+    -
+      tool_class: "icon-ps"
+      tool_name: "Photoshop"
+  vimeo_status: "unlinked"
+  vimeo: ''
+  youtube_status: "unlinked"
+  youtube: ''
+  media:
+    -
+      media_name: ""
+      media_link: "gallery/sutterfield/01.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/sutterfield/02.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/sutterfield/03.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/sutterfield/04.jpg"
+-
+  name: "wannae"
+  title: "Wanna-E Authentic Mandalay"
+  category: "WEB + INTERACTIVE"
+  type: "Web Experience"
+  description: "One of the problem that a food truck always have is for the customer to find their always changing locations. Here, I linked their Google Calendar so they don't need a complicated CMS to update their locations."
+  next_project: "apple.html"
+  client: "Wanna-E"
+  banner_link: "wannae/wannae"
+  awards:
+    -
+      award_name: ""
+  tools:
+    -
+      tool_class: ""
+      tool_name: "HTML"
+    -
+      tool_class: ""
+      tool_name: "CSS"
+    -
+      tool_class: ""
+      tool_name: "JavaScript"
+    -
+      tool_class: "icon-ai"
+      tool_name: "Illustrator"
+    -
+      tool_class: "icon-ps"
+      tool_name: "Photoshop"
+  vimeo_status: "unlinked"
+  vimeo: ''
+  youtube_status: "unlinked"
+  youtube: ''
+  media:
+    -
+      media_name: ""
+      media_link: "gallery/wannae/01.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/wannae/02.jpg"
+-
+  name: "apple"
+  title: "Apple iPhone 6"
+  category: "WEB + INTERACTIVE"
+  type: "Web Experience"
+  description: "iPhone 6 isn’t simply bigger — it’s better in every way. Larger, yet dramatically thinner. More powerful, but remarkably power efficient. With a smooth metal surface that seamlessly meets the new Retina HD display. It’s one continuous form where hardware and software function in perfect unison, creating a new generation of iPhone that’s better by any measure."
+  next_project: "mobile-orchestra.html"
+  client: "Apple"
+  banner_link: "akqa/apple"
+  awards:
+    -
+      award_name: ""
+  tools:
+    -
+      tool_name: "HTML5"
+    -
+      tool_name: "CSS3 (Sass)"
+  vimeo_status: "unlinked"
+  vimeo: ''
+  youtube_status: "unlinked"
+  youtube: ''
+  media:
+    -
+      media_name: ""
+      media_link: "gallery/apple/01.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/apple/02.jpg"

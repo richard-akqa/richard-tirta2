@@ -23,15 +23,19 @@ activate :autoprefixer
 # Page options, layouts, aliases and proxies
 ###
 
-data.projects.akqa.each do |project|
-  proxy "/works/#{project[:name]}.html", "views/templates/akqa-works.html", :layout => "akqa-layout" , :locals => { :project => project }, :ignore => true
+data.projects.featured.each do |project|
+  proxy "/works/#{project[:name]}.html", "views/templates/featured-works.html", :layout => "featured-layout" , :locals => { :project => project }, :ignore => true
 end
 
-data.projects.aau.each do |project|
-  proxy "/works/#{project[:name]}.html", "views/templates/aau-works.html", :layout => "aau-layout" , :locals => { :project => project }, :ignore => true
+data.projects.recent.each do |project|
+  proxy "/works/#{project[:name]}.html", "views/templates/recent-works.html", :layout => "recent-layout" , :locals => { :project => project }, :ignore => true
 end
 
-page "works/dts.html", :layout => "aau-layout"
+data.projects.archive.each do |project|
+  proxy "/works/#{project[:name]}.html", "views/templates/archive-works.html", :layout => "archive-layout" , :locals => { :project => project }, :ignore => true
+end
+
+page "works/dts.html", :layout => "archive-layout"
 
 page "works/workshop.html", :layout => "personal-layout"
 page "works/venus.html", :layout => "personal-layout"

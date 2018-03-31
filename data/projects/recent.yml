@@ -1,43 +1,4 @@
 -
-  name: "mobile-orchestra"
-  title: "Mobile Orchestra"
-  category: "WEB + INTERACTIVE"
-  type: "Interactive Experience"
-  description: "To celebrate the holidays, AKQA teamed up with members of the Pacific Chamber Symphony, and Music Director Laurence Kohl, to create an interactive mobile orchestra that turns phones into a musicians."
-  next_project: "make-our-mark.html"
-  client: "AKQA"
-  banner_link: "akqa/mobileorchestra"
-  awards:
-    -
-      award_name: "<strong>Featured in:</strong>"
-    -
-      award_name: "Cannes Lions 2013 as <br/>Silver Lion of Mobile Lions."
-    -
-      award_name: "Communication Arts Interactive Annual."
-    -
-      award_name: "FWA as Mobile of the Day."
-    -
-      award_name: "Google Creative Sandbox."
-    -
-      award_name: "PSFK."
-    -
-      award_name: "The Egotist."
-  tools:
-    -
-      tool_name: "HTML5 (Jade)"
-    -
-      tool_name: "CSS3 (Stylus)"
-    -
-      tool_name: "node.js"
-  vimeo_status: "linked"
-  vimeo: '<p>Password: crd@AKQA</p><iframe src="//player.vimeo.com/video/96371794?byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-  youtube_status: "linked"
-  youtube: '<iframe width="960" height="540" src="//www.youtube.com/embed/wUpAvTYAOjY" frameborder="0" allowfullscreen></iframe>'
-  media:
-    -
-      media_name: ""
-      media_link: "gallery/akqa/mobileorchestra_full.jpg"
--
   name: "make-our-mark"
   title: "Levi's #MAKEOURMARK"
   category: "WEB + INTERACTIVE"
@@ -78,6 +39,80 @@
     -
       media_name: ""
       media_link: "gallery/akqa/levis_full.jpg"
+-
+  name: "audi-a8-test-drive"
+  title: "Audi A8 Test Drive"
+  category: "WEB + INTERACTIVE"
+  type: "Microsite"
+  description: "Audi Micro-site for users to test drive the Audi's latest 2013 Audi A8 Model."
+  next_project: "batik-keris.html"
+  client: "Audi"
+  banner_link: "akqa/audi"
+  awards:
+    -
+      award_name: ""
+  tools:
+    -
+      tool_name: "HTML5"
+    -
+      tool_name: "CSS3"
+    -
+      tool_name: "JavaScript"
+    -
+      tool_name: "Middleman"
+  vimeo_status: "unlinked"
+  vimeo: ''
+  youtube_status: "unlinked"
+  youtube: ""
+  media:
+    -
+      media_name: ""
+      media_link: "gallery/audi/01.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/audi/02.jpg"
+    -
+      media_name: ""
+      media_link: "gallery/audi/03.jpg"
+-
+  name: "mobile-orchestra"
+  title: "Mobile Orchestra"
+  category: "WEB + INTERACTIVE"
+  type: "Interactive Experience"
+  description: "To celebrate the holidays, AKQA teamed up with members of the Pacific Chamber Symphony, and Music Director Laurence Kohl, to create an interactive mobile orchestra that turns phones into a musicians."
+  next_project: "make-our-mark.html"
+  client: "AKQA"
+  banner_link: "akqa/mobileorchestra"
+  awards:
+    -
+      award_name: "<strong>Featured in:</strong>"
+    -
+      award_name: "Cannes Lions 2013 as <br/>Silver Lion of Mobile Lions."
+    -
+      award_name: "Communication Arts Interactive Annual."
+    -
+      award_name: "FWA as Mobile of the Day."
+    -
+      award_name: "Google Creative Sandbox."
+    -
+      award_name: "PSFK."
+    -
+      award_name: "The Egotist."
+  tools:
+    -
+      tool_name: "HTML5 (Jade)"
+    -
+      tool_name: "CSS3 (Stylus)"
+    -
+      tool_name: "node.js"
+  vimeo_status: "linked"
+  vimeo: '<p>Password: crd@AKQA</p><iframe src="//player.vimeo.com/video/96371794?byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  youtube_status: "linked"
+  youtube: '<iframe width="960" height="540" src="//www.youtube.com/embed/wUpAvTYAOjY" frameborder="0" allowfullscreen></iframe>'
+  media:
+    -
+      media_name: ""
+      media_link: "gallery/akqa/mobileorchestra_full.jpg"
 -
   name: "march-hoops"
   title: "Bud Light Mad Things Happen <br/> March Hoops"
@@ -213,38 +248,3 @@
     -
       media_name: ""
       media_link: "gallery/akqa/salesforce_full.jpg"
--
-  name: "audi-a8-test-drive"
-  title: "Audi A8 Test Drive"
-  category: "WEB + INTERACTIVE"
-  type: "Microsite"
-  description: "Audi Micro-site for users to test drive the Audi's latest 2013 Audi A8 Model."
-  next_project: "batik-keris.html"
-  client: "Audi"
-  banner_link: "akqa/audi"
-  awards:
-    -
-      award_name: ""
-  tools:
-    -
-      tool_name: "HTML5"
-    -
-      tool_name: "CSS3"
-    -
-      tool_name: "JavaScript"
-    -
-      tool_name: "Middleman"
-  vimeo_status: "unlinked"
-  vimeo: ''
-  youtube_status: "unlinked"
-  youtube: ""
-  media:
-    -
-      media_name: ""
-      media_link: "gallery/audi/01.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/02.jpg"
-    -
-      media_name: ""
-      media_link: "gallery/audi/03.jpg"

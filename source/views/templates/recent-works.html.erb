@@ -1,0 +1,54 @@
+<% p = locals[:project] %>
+
+<%= partial "views/header" %>
+
+<div id="project_wrapper">
+	<div id="project">
+		<div class="gallery_desc">
+			<h3 class="margintop10"><%= p[:category] %></h3>
+
+			<h2 class="margintop20"><strong><%= p[:title] %></strong><br/>
+			<%= p[:type] %></h2>
+
+			<p class="margintop20"><strong>Client:</strong> <%= p[:client] %></p>
+
+			<ul class="award-list">
+				<% p[:awards].each do |d| %>
+					<li>
+						<%= d['award_name'] %>
+					</li>
+				<% end %>
+			</ul>
+
+
+			<p class="margintop10"><%= p[:description] %></p>
+
+			<ul class="tools-list">
+				<% p[:tools].each do |t| %>
+					<li>
+						<%= t['tool_name'] %>
+					</li>
+				<% end %>
+			</ul>
+
+			<p class="margintop20"><a href="<%= p[:next_project] %>">Next Project</a></p>
+		</div>
+
+		<div class="gallery-container">
+			<div class="gallery-image margintop20">
+				<% p[:media].each do |m| %>
+					<p><%= m['media_name'] %></p>
+					<%= image_tag m['media_link'], :alt => m['media_name'] %>
+				<% end %>
+				<div class="video-container <%= p[:youtube_status] %>">
+					<%= p[:youtube] %>
+				</div>
+				<div class="video-container <%= p[:vimeo_status] %>">
+					<%= p[:vimeo] %>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
