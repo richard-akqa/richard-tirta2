@@ -14,7 +14,7 @@ header{
 		min-width:650px;
 	}
 	@media screen and (max-width: 650px) {
-		min-width:400px;
+		min-width:320px;
 	}
 	#logo{
 		background: image-url("logo.png") no-repeat;
@@ -27,12 +27,14 @@ header{
 		overflow: hidden;
 		text-indent: -999px;
 		@media screen and (max-width: 1000px) {
-			background: image-url("logo_s.png") no-repeat;
+			background: image-url("logo.png") no-repeat;
+			background-size: 150px 45px;
 			width: 150px;
 			height: 45px;
 		}
 		@media screen and (max-width: 650px) {
 			width: 100%;
+			margin-left: 9px;
 		}
 	}
 	#navigation-container{
@@ -41,7 +43,7 @@ header{
 		@media screen and (max-width: 650px) {
 			float: left;
 			margin-right: 0;
-			margin-left: 16px;
+			margin-left: 5px;
 		}
 		#icons-container{
 			@include clearfix;
@@ -49,7 +51,7 @@ header{
 			@media screen and (max-width: 650px) {
 				position: absolute;
 				top: 18px;
-				right: 30px;
+				right: 15px;
 			}
 			a{
 				@include clearfix;
@@ -102,6 +104,9 @@ header{
 			margin-left: 5px;
 			@media screen and (max-width: 1000px) {
 				font-size: 12px;
+			}
+			@media screen and (max-width: 650px) {
+				font-size: 10px;
 			}
 			a{
 				&:link{
