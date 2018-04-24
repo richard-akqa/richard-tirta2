@@ -83,25 +83,43 @@ RT.VIEWS.MAIN = (function(window){
 		$('#about .jtext:gt(0)').slideUp();
 	}
 
-	main.pageNav = function(){
+	main.nav = function() {
+		var navItem = document.getElementsByClassName('nav-item');
 
-		$('#nav').onePageNav({
-			begin: function(){
-				//Hack so you can click other menu items after the initial click
-				$('body').append('<div id="device-dummy" style="height: 100px;"></div>');
-			},
-			end: function() {
-				$('#device-dummy').remove();
-			}
+		$(navItem).on('click', function(event) {
+		    var target = $(this.getAttribute('href'));
+		    if( target.length ) {
+		        event.preventDefault();
+		        $('html, body').stop().animate({
+		            scrollTop: target.offset().top - 120
+		        }, 500);
+		    }
 		});
 
+		/*console.log(navItem);
+		for (var i = 0; i < navItem.length; i++) {
+
+			navItem[i].addEventListener('click', function(e) {
+
+				var href =this.dataset.nav;
+
+				e.preventDefault();
+
+				document.getElementById(href).scrollIntoView();
+
+
+				console.log(href);
+			});
+
+		}*/
 	}
 
 	$(document).ready(function(){
-		main.preload();
+		//main.preload();
 		main.thumbSlide();
 		main.accordion();
-		main.pageNav();
+		//main.pageNav();
+		main.nav();
 	});
 
 	return main;
